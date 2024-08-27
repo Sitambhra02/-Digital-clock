@@ -1,0 +1,59 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Tint&display=swap');
+
+body,html{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}  
+
+#vid{
+    position: absolute;
+  }
+ #demo{
+    position: relative;
+    z-index: 1;
+    margin: 23px;
+    width: 80%;
+     text-align: center;
+    border: 3px solid rgb(248, 11, 11);
+    font-size: 200px;
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 150px auto;
+ }
+ nav{
+    cursor: pointer;
+    width: 100%;
+    padding: 5px;
+    font-size: 30px;
+    height: 90px;
+    align-items: center;
+    background-color: black;
+    opacity: 0.8;
+    position: relative;
+    z-index: 1;
+    justify-content: space-between;
+    display: flex;
+    box-sizing: border-box;
+ }
+ .cont{
+    margin: 2px;
+    display: flex;
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      list-style: none;
+    
+ }
+ .cont li{
+    margin: 10px;
+ }
+ .name{
+    margin: 10px;
+    font-size: 45px;
+    font-family: "Bungee Tint", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ }
